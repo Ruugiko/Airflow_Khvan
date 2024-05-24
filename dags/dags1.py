@@ -9,7 +9,7 @@ import pendulum
 # Удалим sys.path.insert, если transform_script.py находится в PYTHONPATH или в той же директории
 from transform_script import transform
 
-DAG_ID = 'Bondareva_Alina_dag1'
+DAG_ID = 'Ok_Khi_Khvan_dag1000'
 default_args = {
     'owner': 'airflow',
     'start_date': pendulum.datetime(2023, 4, 5, tz=pendulum.timezone("Europe/Moscow")),
