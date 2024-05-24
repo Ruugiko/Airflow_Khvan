@@ -1,0 +1,112 @@
+[2024-05-23T11:33:50.686+0000] {processor.py:156} INFO - Started process (PID=34) to work on /opt/airflow/dags/dags1.py
+[2024-05-23T11:33:50.687+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags1.py for tasks to queue
+[2024-05-23T11:33:50.687+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:33:50.687+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags1.py
+[2024-05-23T11:33:51.593+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:33:51.591+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags1.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-05-23T11:33:51.594+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags1.py
+[2024-05-23T11:33:51.637+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags1.py took 0.953 seconds
+[2024-05-23T11:34:22.739+0000] {processor.py:156} INFO - Started process (PID=48) to work on /opt/airflow/dags/dags1.py
+[2024-05-23T11:34:23.961+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags1.py for tasks to queue
+[2024-05-23T11:34:23.975+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:34:23.975+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags1.py
+[2024-05-23T11:34:27.877+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:34:27.874+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags1.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-05-23T11:34:27.878+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags1.py
+[2024-05-23T11:34:27.897+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags1.py took 5.529 seconds
+[2024-05-23T11:34:59.585+0000] {processor.py:156} INFO - Started process (PID=76) to work on /opt/airflow/dags/dags1.py
+[2024-05-23T11:34:59.588+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags1.py for tasks to queue
+[2024-05-23T11:34:59.591+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:34:59.591+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags1.py
+[2024-05-23T11:35:01.564+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:35:01.557+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags1.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-05-23T11:35:01.565+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags1.py
+[2024-05-23T11:35:06.838+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags1.py took 8.177 seconds
+[2024-05-23T11:35:37.615+0000] {processor.py:156} INFO - Started process (PID=90) to work on /opt/airflow/dags/dags1.py
+[2024-05-23T11:35:37.695+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags1.py for tasks to queue
+[2024-05-23T11:35:38.331+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:35:37.911+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags1.py
+[2024-05-23T11:35:47.788+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:35:47.780+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags1.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-05-23T11:35:47.790+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags1.py
+[2024-05-23T11:35:47.879+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags1.py took 10.442 seconds
+[2024-05-23T11:36:18.247+0000] {processor.py:156} INFO - Started process (PID=113) to work on /opt/airflow/dags/dags1.py
+[2024-05-23T11:36:18.392+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags1.py for tasks to queue
+[2024-05-23T11:36:18.396+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:36:18.395+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags1.py
+[2024-05-23T11:36:59.078+0000] {processor.py:156} INFO - Started process (PID=127) to work on /opt/airflow/dags/dags1.py
+[2024-05-23T11:36:59.081+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags1.py for tasks to queue
+[2024-05-23T11:36:59.100+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:36:59.099+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags1.py
+[2024-05-23T11:37:00.740+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:37:00.732+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags1.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-05-23T11:37:00.743+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags1.py
+[2024-05-23T11:37:00.839+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/dags1.py took 1.836 seconds
+[2024-05-23T11:37:39.653+0000] {processor.py:156} INFO - Started process (PID=140) to work on /opt/airflow/dags/dags1.py
+[2024-05-23T11:37:39.657+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/dags1.py for tasks to queue
+[2024-05-23T11:37:39.658+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:37:39.658+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/dags1.py
+[2024-05-23T11:38:10.916+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:38:10.915+0000] {timeout.py:68} ERROR - Process timed out, PID: 140
+[2024-05-23T11:38:10.962+0000] {logging_mixin.py:117} INFO - [2024-05-23T11:38:10.917+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/dags1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags1.py", line 5, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/__init__.py", line 50, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/__init__.py", line 20, in <module>
+    from pandas.core.arrays.string_arrow import ArrowStringArray
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/arrays/string_arrow.py", line 65, in <module>
+    import pyarrow.compute as pc
+  File "/home/airflow/.local/lib/python3.7/site-packages/pyarrow/compute.py", line 18, in <module>
+    from pyarrow._compute import (  # noqa
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dags1.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.4.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.4.1/best-practices.html#reducing-dag-complexity, PID: 140
+[2024-05-23T11:38:10.963+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/dags1.py
